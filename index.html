@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BirthdayBlend</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
-<body>    
-    <div class="container">
-        <div id="heading">
-            Is your Birthday Lucky?🤔
-        </div>
 
-        <label class="label" for="input">
+<body>
+    <div class="container">
+        <header>
+            <h1>Is your Birthday Lucky?</h1>
+        </header>
+
+        <label for="dob" class="label">
             Date Of Birth
         </label>
+        <input id="dob" type="date">
 
-        <input class="input" type="date">
-        <label class="label" for="input">
+        <br>
+        <label class="label"for="lucky-number">
             Lucky Number
         </label>
-        <input class="input" type="number">
-
+        <input id="lucky-number" type="number">
+        <br>
         <button id="btn">CHECK</button>
+        <div id="output-box"></div>
+
     </div>
-
+    <br>
     <footer>
+        <div class="container2">
+            <div class="footer-header">Created by: Harshil Vispute</div>
+            <ul class="ul">
+                <li class="li-items">
+                    <a class="link" href="https://github.com/harshil114"><img src="img/github.svg" alt="">                  
+                    </a>
+                </li>
+                <li class="li-items">
+                    <a class="link" href="https://twitter.com/harshilvispute"><img src="img/twitter.svg" alt="">                 
+                    </a>
+                </li>
+                <li class="li-items">
+                    <a class="link" href="https://www.linkedin.com/in/harshil-vispute-06a47a274/"><img src="img/linkedin.svg" alt="">
+                    </a>
+                </li>            
+            </ul>
+            <p>
+               <b>Privacy Notice: </b>We do not store your data.
+            </p>
 
-    </footer>
+        </div>
+        
+     </footer>
     <script src="app.js"></script>
-    
+
 </body>
+
 </html>
