@@ -17,5 +17,3 @@ The app calculates whether the sum of your birthday digits is divisible by your 
 ## Check out the Live App
 
 [Live App Demo](https://birthdayblend.netlify.app/)
-
-Feel free to include live app link, screenshots, or any additional information that enhances the user's understanding of your project.
